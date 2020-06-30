@@ -1,0 +1,29 @@
+{   "product": {
+    "types": {
+      "apparel": {
+        "id": 1,
+        "name": "Graphic"
+      },
+      "accessory": {
+        "id": 2,
+        "name": "Accessories"
+      }
+    }
+  },
+    "user": {
+        "roles": {
+            "admin": "ADMIN",
+            "user": "USER"
+        },
+        "gender": {
+            "male": {
+                "id": 1,
+                "name": "Male"
+            },
+            "female": {
+                "id": 2,
+                "name": "Female"
+            }
+        }
+    }
+}
