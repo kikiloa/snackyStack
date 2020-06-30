@@ -6,7 +6,7 @@ import MembershipType from './types'
 import { getAll, getByUser, get } from './resolvers'
 
 //Membership All
-export const membership = {
+export const memberships = {
     type: new GraphQLList(MembershipType),
     resolver: getAll
 }

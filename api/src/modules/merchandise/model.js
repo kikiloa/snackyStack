@@ -2,7 +2,7 @@
 
 // Merchandise
 module.exports = function(sequelize, DataTypes) {
-    return sequelize.define('products', {
+    return sequelize.define('merchandise', {
     name: {
         type: DataTypes.STRING
     },

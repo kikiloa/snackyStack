@@ -6,7 +6,7 @@ import { MerchandiseType, MerchandiseTypesType } from './types'
 import { getAll, getBySlug, getById, getRelated, getTypes } from './resolvers'
 
 //merchandise All
-export const merchandise = {
+export const merchandises = {
     type: new GraphQLList(MerchandiseType),
     resolve: getAll
 }

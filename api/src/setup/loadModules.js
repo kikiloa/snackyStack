@@ -4,7 +4,6 @@ import path from 'path'
 
 import cors from 'cors'
 import bodyParser from 'body-parser'
-import cookieParser from 'cookie-parser'
 import morgan from 'morgan'
 import cookieParser from 'cookie-parser'
 

@@ -50,7 +50,7 @@ export const eventRemove = {
     args: {
         id: {
             name: 'id',
-            type: 'GraphQLInt'
+            type: GraphQLInt
         }
     },
     resolve: remove

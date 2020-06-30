@@ -3,11 +3,11 @@ import { GraphQLString, GraphQLInt } from 'graphql'
 
 //app imports
 import { MerchandiseType } from './types'
-import { crete, update, remove } from './resolvers'
+import { create, update, remove } from './resolvers'
 
 //merchandise create
 export const merchandiseCreate = {
-    type: merchandiseType,
+    type: MerchandiseType,
     args: {
         name: {
             name: 'name',
@@ -79,9 +79,9 @@ export const merchandiseUpdate = {
         image: {
             name: 'image',
             type: GraphQLString
-        },
-        resolve: update
-    }
+        }
+    },
+    resolve: update
 }
 
 // merchandise remove

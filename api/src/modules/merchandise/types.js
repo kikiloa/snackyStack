@@ -20,7 +20,7 @@ const MerchandiseType = new GraphQLObjectType({
 
 // User Gender Types
 const MerchandiseTypesType = new GraphQLObjectType({
-    name: 'Merchandise Types type',
+    name: 'merchandiseTypesType',
     description: 'User Types type',
 
     fields: () => ({

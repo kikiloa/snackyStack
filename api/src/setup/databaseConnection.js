@@ -17,6 +17,7 @@ const connection = new Sequelize(
         host: databaseConfigEnv.host,
         dialect: databaseConfigEnv.dialect,
         logging: false,
+        port: '5555',
         operatorsAliases: Sequelize.Op
     }
 )
